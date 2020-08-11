@@ -1,4 +1,3 @@
-# You may uncomment the following lines if you want `ls' to be colorized:
 export LS_OPTIONS='--color=auto'
 eval "$(dircolors)"
 alias ls='ls $LS_OPTIONS'
@@ -7,7 +6,8 @@ alias l='ls $LS_OPTIONS -lA'
 alias la='ls $LS_OPTIONS -la'
 
 # Some more alias to avoid making mistakes:
-alias rm='rm -i'
-alias cp='cp -i'
-alias mv='mv -i'
+#alias rm='rm -i'
+#alias cp='cp -i'
+#alias mv='mv -i'
+
 alias copy='xclip -sel clip'
